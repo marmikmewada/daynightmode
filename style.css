@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.outer {
+    background: red;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    background: green;
+    height: 10rem;
+    width: 10rem;
+}
+button {
+    height: 3rem;
+    width: 6rem;
+}
+.colorGreen {
+    background: green;
+}
+.colorRed {
+    background: red;
+}
+
+
+
+
